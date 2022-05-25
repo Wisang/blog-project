@@ -71,6 +71,7 @@ a:hover, a:focus, a:active {
 .branding {
 	color: #9ac9f4;
 	text-transform: uppercase;
+	text-align:center;
 }
 
 

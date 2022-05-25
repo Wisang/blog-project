@@ -2,46 +2,65 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Simmons Academics Markup Exercise</title>
-	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-
-<h2>To see if dynamic loading works</h2>
-
-<h1>Academics</h1>
-
-<h2>For more than a century, Simmons University has offered pioneering undergraduate and graduate programs that combine theory, practice, and real-world experience that will challenge you to see more broadly, think more deeply, and prepare you for leadership in the world.</h2>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <header>
+	<div class="row">
+		<div class="col">
+			<ul class="nav">
+			  <li class="nav-item">
+				<li><a class="nav-link" href="#">Directories </a></li>
+			  </li>
+			  <li class="nav-item">
+				<li><a class="nav-link" href="#">Calendars </a></li>
+			  </li>
+			  <li class="nav-item">
+				<li><a class="nav-link" href="#">News </a></li>
+			  </li>
+			  <li class="nav-item">
+				<li><a class="nav-link" href="#">Library </a></li>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="col">
+			<h1 style="text-align:center">Academics</h1>
+
+			<div class="branding">
+				<img src="images/simmons-logo.png" alt="Simmons College" />
+				<p style="text-align:center">Boston &middot; Massachusetts</p>
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="utilities-nav" class="utilities">
+				<a class="button" href="#">Search</a>
+				<a class="button" href="#">Links For</a>
+			</div>
+		</div>
+	</div>
 	
-	<nav id="quick-nav">
-		<ul>	
-			<li><a href="#">Directories</a></li>
-			<li><a href="#">Calendars</a></li>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Library</a></li>
-		</ul>
-	</nav>
+<!--	<nav id="quick-nav">-->
+<!--		<ul>	-->
+<!--			<li><a href="#">Directories</a></li>-->
+<!--			<li><a href="#">Calendars</a></li>-->
+<!--			<li><a href="#">News</a></li>-->
+<!--			<li><a href="#">Library</a></li>-->
+<!--		</ul>-->
+<!--	</nav>-->
 
-	<div class="branding">
-		<img src="images/simmons-logo.png" alt="Simmons College" />
-		<p>Boston &Middot; Massachusetts</p>
-	</div>
 
-	<div id="utilities-nav" class="utilities">
-		<a class="button" href="#">Search</a>
-		<a class="button" href="#">Links For</a>
-	</div>
-
-	<nav id="main-nav">
-		<ul>
-			<li><a href="#">About Simmons</a></li>
-			<li><a href="#">Academics</a></li>
-			<li><a href="#">Admission & Financial Aid</a></li>
-			<li><a href="#">Student Life</a></li>
-			<li><a href="#">Alumnae/i & Friends</a></li>
-		</ul>
+	<nav class="nav nav-pills nav-fill" id="main-nav">
+			<a class="nav-link" aria-current="page" href="#">About Simmons</a>
+			<a class="nav-link" href="#">Academics</a>
+			<a class="nav-link" href="#">Admission & Financial Aid</a>
+			<a class="nav-link" href="#">Student Life</a>
+			<a class="nav-link" href="#">Alumnae/i & Friends</a>
 	</nav>
 </header>
 
