@@ -57,7 +57,7 @@ img {
 
 /* Links */
 a:link, a:visited {
-	color: #4385c1;
+	/* color: #4385c1; */
 	text-decoration: none;
 }
 a:hover, a:focus, a:active {
